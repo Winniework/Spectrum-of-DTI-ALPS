@@ -9,10 +9,9 @@ For DTI preprocessing in Shell
 * AFNI
 * CUDA
 
-For Auto ALPS Calculation and QC in Python
+For Spectrum of ALPS Calculation in Python
 * nibabel
 * numpy
-* PIL
 * csv
 
 ## How to use
