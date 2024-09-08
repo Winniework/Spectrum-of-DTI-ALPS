@@ -20,12 +20,9 @@ DTI preprocessing for each subject (about 10-30 minutes for single subject, para
 ```sh
 ./1_DTI_preprocessing.sh
 ```
-
+Calculating 1000 ALPS values for each subject (about 5 minutes for single subject)
 ```sh
 python3 ./2_sprectrum_of_ALPS_analysis.py
 ```
 ## Results
-All subjects' 1000 ALPS values would be recorded in the results.csv
-
-## References
-* Tatekawa H, Matsushita S, Ueda D, et al. Improved reproducibility of diffusion tensor image analysis along the perivascular space (DTI-ALPS) index: an analysis of reorientation technique of the OASIS-3 dataset. Japanese Journal of Radiology. 2023;41(4):393-400.
+The ALPS values for all 1000 subjects will be recorded in the results.csv file, from which features such as the mean and variance can be extracted from the spectrum.
